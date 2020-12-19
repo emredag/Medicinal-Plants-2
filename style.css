@@ -1,0 +1,311 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,500,700');
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Quicksand", sans-serif;
+    font-size: 62.5%;
+    font-size: 10px;
+}
+
+
+.nav {
+    width: 100%;
+    height: 65px;
+    position: fixed;
+    line-height: 65px;
+    text-align: center;
+}
+
+.nav div.logo {
+    float: left;
+    width: auto;
+    height: auto;
+    padding-left: 3rem;
+}
+
+.nav div.logo a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 2.5rem;
+}
+
+.nav div.logo a:hover {
+    color: #00E676;
+}
+
+.nav div.main_list {
+    height: 65px;
+    float: right;
+}
+
+.nav div.main_list ul {
+    width: 100%;
+    height: 65px;
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav div.main_list ul li {
+    width: auto;
+    height: 65px;
+    padding: 0;
+    padding-right: 3rem;
+}
+
+.nav div.main_list ul li a {
+    text-decoration: none;
+    color: #fff;
+    line-height: 65px;
+    font-size: 2.4rem;
+}
+
+.nav div.main_list ul li a:hover {
+    color: #00E676;
+}
+
+
+
+
+
+
+.home {
+    width: 100%;
+    height: 100vh;
+    background-image: url(./img/arkaplan.jpg);
+    background-position: center top;
+    background-size: cover;
+}
+
+.navTrigger {
+    display: none;
+}
+
+.nav {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    -webkit-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+
+
+
+
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .container {
+        margin: 0;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .navTrigger {
+        display: block;
+    }
+
+    .nav div.logo {
+        margin-left: 15px;
+    }
+
+    .nav div.main_list {
+        width: 100%;
+        height: 0;
+        overflow: hidden;
+    }
+
+    .nav div.show_list {
+        height: auto;
+        display: none;
+    }
+
+    .nav div.main_list ul {
+        flex-direction: column;
+        width: 100%;
+        height: 100vh;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        background-color: #111;
+        background-position: center top;
+    }
+
+    .nav div.main_list ul li {
+        width: 100%;
+        text-align: right;
+    }
+
+    .nav div.main_list ul li a {
+        text-align: center;
+        width: 100%;
+        font-size: 3rem;
+        padding: 20px;
+    }
+
+    .nav div.media_button {
+        display: block;
+    }
+}
+
+
+
+
+
+body {
+    background-image: url(https://kastamonupancar.com.tr/wp-content/uploads/2018/11/Green-lence-effect-for-website-background.jpg);
+}
+
+
+
+.affix {
+    padding: 0;
+    background-color: #111;
+}
+
+
+
+
+
+body {
+    background-color: #009431;
+    margin: 0;
+}
+
+.bitki {
+
+    display: block;
+    margin-bottom: 30px;
+    padding-left: 30px;
+
+
+}
+
+.bitki-container img {
+    width: 35%;
+    border-bottom: 5px solid black;
+    margin-bottom: 10px;
+}
+
+
+
+.text-info {
+
+    font-size: 16px;
+    color: black;
+    -webkit-text-stroke: 0.5px black;
+
+
+}
+
+.text-info b {
+    color: rgba(255, 255, 255, 0.781);
+
+}
+
+#nedir,
+#bitkiler {
+    padding-top: 45px;
+}
+
+
+
+
+.bitki-container {
+    box-sizing: border-box;
+    width: 50%;
+    float: left;
+    margin-top: 30px;
+    border-left: 2px solid rgb(26, 24, 24);
+    padding-left: 15px;
+}
+
+
+
+.container #info,
+#history,
+#getready,
+#source {
+    margin: 22px;
+    -webkit-text-stroke: 0.5px black;
+}
+
+#sifanedir {
+    border-bottom: 3px solid rgb(26, 24, 24);
+    text-align: center;
+    font-size: 15px;
+}
+
+.nedir div {
+    display: block;
+    line-height: 2;
+    margin-bottom: 60px;
+}
+
+.info-text {
+    text-align: justify;
+    text-indent: 35px;
+    font-size: 14px;
+}
+
+#sourcelink {
+    color: darkred;
+    font-size: 20px;
+    text-decoration: none;
+    border: 2px solid black;
+    padding: 5px;
+}
+
+#sourcelink:hover {
+    background: black;
+    color: white;
+    transition: all;
+}
+
+
+
+
+
+
+
+
+.cerceve {
+    position: absolute;
+    
+    width: 34.8%;
+    background-color: #f4f4f4;
+    height: 455px;
+    margin: 700px 600px 100px 600px;
+  
+    
+    border-radius: 7px;
+    text-align: center;
+    border: 2px solid #e2405f;
+}
+
+.cerceve img {
+    border-radius: 100px;
+    margin-top: 20px;
+}
+
+.form {
+    height: 20px;
+    width: 50%;
+    border-radius: 3px;
+    margin-top: 10px;
+}
+
+input[type="submit"] {
+    width: 100px;
+    height: 28px;
+    color: #4f332f;
+    border: 1px solid #ea9393;
+    margin-top: 35px;
+}
+
+.cerceve img {
+    border-radius: 100px;
+    margin-top: -45px;
+}
